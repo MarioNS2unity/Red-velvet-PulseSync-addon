@@ -1,0 +1,31 @@
+{
+  "name": "Red velet",
+  "image": "icon.png",
+  "banner": "banner.png",
+  "libraryLogo": "",
+  "author": [
+    "mario.mario",
+    "lolkekbypek"
+  ],
+  "description": "Самая красная переделанная тема от спанчбоба.",
+  "version": "1.0.0",
+  "css": "style.css",
+  "script": "script.js",
+  "type": "theme",
+  "tags": [
+    "dark",
+    "red velet",
+    "from spongebob to red velet"
+  ],
+  "dependencies": [],
+  "conflictsWith": [],
+  "allowedUrls": [
+    "http://127.0.0.1:2007/"
+  ],
+  "supportedVersions": [],
+  "id": "afe28effefa7ddb1104ebd25",
+  "fromPext": true,
+  "installSource": "store",
+  "storeAddonId": "",
+  "packageHash": ""
+}
