@@ -18,7 +18,7 @@ observer.observe(body, { attributes: true, attributeFilter: ['class'] });
     'use strict';
 
     let newWaveEnabled = true; // true - новая волна, false - старая
-    let imageUrl = 'http://127.0.0.1:2007/assets/banner.png?name=AlreadyRed'; // ССЫЛКА НА ТВОЮ КАРТИНКУ
+    let imageUrl = 'http://127.0.0.1:2007/assets/banner.png?name=RedVelvet'; // ССЫЛКА НА ТВОЮ КАРТИНКУ
 
     function createContainer(id, parent) {
         let container = document.getElementById(id);
