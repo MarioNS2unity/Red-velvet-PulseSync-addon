@@ -1,5 +1,5 @@
 {
-  "name": "Red velvet",
+  "name": "RedVelvet",
   "image": "icon.png",
   "banner": "banner.png",
   "libraryLogo": "",
@@ -14,8 +14,8 @@
   "type": "theme",
   "tags": [
     "dark",
-    "red velet",
-    "from spongebob to red velvet"
+    "red velvet",
+    "from spongebob to red velet"
   ],
   "dependencies": [],
   "conflictsWith": [],
