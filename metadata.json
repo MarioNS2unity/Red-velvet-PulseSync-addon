@@ -7,25 +7,23 @@
     "mario.mario",
     "lolkekbypek"
   ],
-  "description": "Самая красная переделанная тема от спанчбоба.",
-  "version": "1.0.0",
+  "description": "Тема, которую можно пихать куда угодно.",
+  "version": "1.0.1",
   "css": "style.css",
   "script": "script.js",
   "type": "theme",
   "tags": [
     "dark",
     "red velvet",
-    "from spongebob to red velvet"
+    "liquid glass"
   ],
   "dependencies": [],
   "conflictsWith": [],
-  "allowedUrls": [
-    "http://127.0.0.1:2007/"
-  ],
+  "allowedUrls": [],
   "supportedVersions": [],
-  "id": "afe28effefa7ddb1104ebd25",
+  "id": "333b415f-85cf-405a-a3b4-d040951b8407",
   "fromPext": true,
   "installSource": "store",
-  "storeAddonId": "",
+  "storeAddonId": "333b415f-85cf-405a-a3b4-d040951b8407",
   "packageHash": ""
 }

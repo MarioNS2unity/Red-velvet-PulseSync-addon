@@ -3,126 +3,115 @@
   --block-color: #421515;
   --font-color: #fd0101;
   --font-inactive-color: #c20303;
-  --buttons-hover: #00ff15;
   --background: #700000;
-  --vibe-gradient-stop-15: #700000; /* Твой цвет вместо чёрного */
+  --vibe-gradient-stop-15: #700000;
 }
 
 .ym-dark-theme {
-    --ym-background-color-primary-enabled-basic: var(--background);
-    --ym-background-color-primary-enabled-content: var(--block-color);
-    --ym-controls-color-primary-text-enabled: var(--font-inactive-color);
-    --ym-controls-color-primary-text-enabled_variant: var(--font-color);
-    --ym-controls-color-primary-default-enabled: var(--font-color);
-    --ym-background-color-primary-enabled-popover: var(--block-color);
-    --ym-controls-color-secondary-on_default-hovered: var(--font-color);
-    --ym-controls-color-secondary-text-enabled: var(--font-color);
-    --ym-controls-color-secondary-on_default-enabled: var(--font-color);
-    --ym-controls-color-primary-on_outline-enabled: var(--font-color);
-    --ym-controls-color-secondary-outline-selected: var(--block-color);
-    --ym-controls-color-primary-outline-selected_stroke: var(--font-color);
-    --ym-controls-color-primary-outline-enabled: var(--block-color);
-    --ym-background-color-secondary-enabled-blur: #3b1818;
-    --ym-slider-color-primary-enabled: var(--font-color);
-    --ym-controls-color-secondary-on_outline-enabled: #9a0000;
-    --ym-controls-color-secondary-text-enabled_variant: var(--font-color);
+  --ym-background-color-primary-enabled-basic: var(--background);
+  --ym-background-color-primary-enabled-content: var(--block-color);
+  --ym-controls-color-primary-text-enabled: var(--font-inactive-color);
+  --ym-controls-color-primary-text-enabled_variant: var(--font-color);
+  --ym-controls-color-primary-default-enabled: var(--font-color);
+  --ym-background-color-primary-enabled-popover: var(--block-color);
+  --ym-controls-color-secondary-on_default-hovered: var(--font-color);
+  --ym-controls-color-secondary-text-enabled: var(--font-color);
+  --ym-controls-color-secondary-on_default-enabled: var(--font-color);
+  --ym-controls-color-primary-on_outline-enabled: var(--font-color);
+  --ym-controls-color-secondary-outline-selected: var(--block-color);
+  --ym-controls-color-primary-outline-selected_stroke: var(--font-color);
+  --ym-controls-color-primary-outline-enabled: var(--block-color);
+  --ym-background-color-secondary-enabled-blur: #3b1818;
+  --ym-slider-color-primary-enabled: var(--font-color);
+  --ym-controls-color-secondary-on_outline-enabled: #9a0000;
+  --ym-controls-color-secondary-text-enabled_variant: var(--font-color);
 }
 
-
 [style*="--vibe-gradient-stop"]:not([class*="Button"]):not([class*="button"]):not([class*="reset"]):not([class*="Reset"]) {
-    background-image: none !important;
-    background: transparent !important;
+  background-image: none !important;
+  background: transparent !important;
 }
 
 [class*="VibePage_root"],
 [data-test-id="MAIN_PAGE"],
 [class*="MainPage_vibe"] {
-    
-    /* ===== ТЕКСТ ===== */
-    & [class*="track"],
-    & [class*="Track"],
-    & [class*="title"],
-    & [class*="Title"] {
-        color: #ff0000 !important;
-        text-shadow: none !important;
-    }
-    
-    & [class*="artist"],
-    & [class*="Artist"] {
-        color: #ff0000 !important;
-        text-shadow: none !important;
-    }
-    
-    /* ===== КНОПКИ ===== */
-    & button,
-    & [class*="Button"],
-    & [class*="button"] {
-        border-radius: 15% !important;
-        color: #ff0000 !important;
-        text-shadow: none !important;
-        /* Убираем box-shadow по умолчанию */
-        box-shadow: none !important;
-    }
-    
-    & button:hover {
-        background-color: rgba(255, 255, 255, 0.2) !important;
-        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7) !important;
-    }
+  & [class*="track"],
+  & [class*="Track"],
+  & [class*="title"],
+  & [class*="Title"],
+  & [class*="artist"],
+  & [class*="Artist"] {
+    color: #ff0000 !important;
+    text-shadow: none !important;
+  }
+
+  & button,
+  & [class*="Button"],
+  & [class*="button"] {
+    border-radius: 15% !important;
+    color: #ff0000 !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+
+  & button:hover {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7) !important;
+  }
 }
 
 [class*="viberesetbutton"],
 [class*="VibeReset"],
 [class*="reset"],
 [class*="Reset"] {
-    box-shadow: none !important;
-    text-shadow: none !important;
-    -webkit-box-shadow: none !important;
-    -webkit-text-shadow: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -webkit-text-shadow: none !important;
 }
 
 [class*="VibePage_root"] [class*="reset"],
 [class*="VibePage_root"] [class*="Reset"],
 [data-test-id="MAIN_PAGE"] [class*="reset"],
 [data-test-id="MAIN_PAGE"] [class*="Reset"] {
-    box-shadow: none !important;
-    text-shadow: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
 }
 
 [class*="viberesetbutton"] *,
 [class*="VibeReset"] * {
-    box-shadow: none !important;
-    text-shadow: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
 }
 
+/* Бэкграунд карточки в интерфейсе */
 [class*="VibeBlock_root"] {
-    position: relative;
-    background-color: rgb(0, 0, 0);
-    margin: 10px 30px 10px;
-    border-radius: 5px;
-    background: url("http://127.0.0.1:2007/assets/banner.png?name=RedVelvet")
-        no-repeat center;
-    background-size: cover;
-    max-height: 550px;
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  margin: 10px 30px 10px;
+  border-radius: 5px;
+  background: var(--redvelvet-banner, url("assets/banner.png")) no-repeat center;
+  background-size: cover;
+  max-height: 550px;
 }
 
+/* Бэкграунд полноэкранного плеера */
 [class*="FullscreenPlayerDesktop_important"] {
-    background-color: var(--background) !important;
-    background: url("http://127.0.0.1:2007/assets/banner.png?name=RedVelvet")
-        no-repeat center;
-    background-size: cover;
+  background: var(--background) var(--redvelvet-banner, url("assets/banner.png")) no-repeat center !important;
+  background-size: cover !important;
 }
 
 [class*="syncLyrics"],
 [class*="SyncLyrics"],
 [class*="FullscreenPlayerDesktopContent_syncLyricsContent"] {
-    mask-image: none !important;
-    -webkit-mask-image: none !important;
-    mask: none !important;
-    -webkit-mask: none !important;
-    mask-mode: none !important;
-    -webkit-mask-mode: none !important;
-    mask-composite: none !important;
-    -webkit-mask-composite: none !important;
+  mask-image: none !important;
+  -webkit-mask-image: none !important;
+  mask: none !important;
+  -webkit-mask: none !important;
+  mask-mode: none !important;
+  -webkit-mask-mode: none !important;
+  mask-composite: none !important;
+  -webkit-mask-composite: none !important;
 }
 
 [class*="syncLyrics"]::before,
@@ -131,35 +120,97 @@
 [class*="SyncLyrics"]::after,
 [class*="FullscreenPlayerDesktopContent_syncLyricsContent"]::before,
 [class*="FullscreenPlayerDesktopContent_syncLyricsContent"]::after {
-    display: none !important;
-    content: none !important;
-    background: transparent !important;
-    background-image: none !important;
-    opacity: 0 !important;
-    width: 0 !important;
-    height: 0 !important;
+  display: none !important;
+  content: none !important;
+  background: transparent !important;
+  background-image: none !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
 }
 
 [class*="FullscreenPlayerDesktopContent"],
 [class*="PlayerDesktopContent"] {
-    --player-average-color-background: transparent !important;
-    background: transparent !important;
+  --player-average-color-background: transparent !important;
+  background: transparent !important;
 }
 
 [class*="syncLyrics"],
 [class*="SyncLyrics"] {
-    color: #f97e78 !important; 
+  color: #f97e78 !important;
 }
 
 [class*="syncLyrics"] [class*="active"],
 [class*="SyncLyrics"] [class*="active"] {
-    color: #ff0000 !important;
-    font-weight: 700 !important;
+  color: #ff0000 !important;
+  font-weight: 700 !important;
 }
 
 [class*="syncLyrics"] [class*="line"]:not([class*="active"]),
 [class*="SyncLyrics"] [class*="line"]:not([class*="active"]) {
-    color: #290d0d !important;
-    opacity: 0.2 !important;
+  color: #290d0d !important;
+  opacity: 0.2 !important;
 }
-/* чё зырим? */
+
+[data-test-id="PLAYERBAR_DESKTOP"] {
+  position: relative;
+  --player-average-color-background: transparent !important;
+  background: transparent !important;
+}
+
+[data-test-id="PLAYERBAR_DESKTOP"]::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(66, 21, 21, 0.55);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  z-index: -1;
+  pointer-events: none;
+}
+
+[href^="music-application://desktop"] {
+  position: relative;
+  border-radius: 12px;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+[href^="music-application://desktop"]::before {
+  content: "";
+  position: absolute;
+  inset: -4px -8px;
+  border-radius: inherit;
+  background: transparent;
+  border: 1px solid transparent;
+  z-index: -1;
+  pointer-events: none;
+  transition: background 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+[href^="music-application://desktop"]:hover::before {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+[href^="music-application://desktop"][aria-current="page"],
+[href^="music-application://desktop"].active,
+[href^="music-application://desktop"][class*="active" i] {
+  background: rgba(255, 255, 255, 0.08) !important;
+  backdrop-filter: blur(12px) saturate(150%) !important;
+  -webkit-backdrop-filter: blur(12px) saturate(150%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    0 2px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+[href^="music-application://desktop"][aria-current="page"]::before,
+[href^="music-application://desktop"].active::before,
+[href^="music-application://desktop"][class*="active" i]::before {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.25),
+    0 2px 10px rgba(0, 0, 0, 0.3);
+}

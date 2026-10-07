@@ -18,14 +18,14 @@ My collection:
 1. Download the latest release.
 2. Open PulseSync → Add-ons → three dots → Addons directory.
 3. Move the addon into the folder.
-4. Go back to PulseSync and find "Red velvet" in Add-ons.
+4. Go back to PulseSync and find "RedVelvet" in Add-ons.
 5. Click Enable. Done!
 
 ## How to download (From PulseSync)
 1. Open PulseSync → Extension store.
-2. Search for "Red velvet".
+2. Search for "RedVelvet".
 3. Click Download.
-4. Go to Add-ons and find "Red velvet".
+4. Go to Add-ons and find "RedVelvet".
 5. Click Enable. Done!
 
 # Русский
@@ -46,12 +46,12 @@ My collection:
 1. Скачайте последнюю версию.
 2. Откройте PulseSync → Аддоны → три точки → Папка аддонов.
 3. Переместите аддон в эту папку.
-4. Вернитесь в PulseSync и найдите "Red velvet" в списке аддонов.
+4. Вернитесь в PulseSync и найдите "RedVelvet" в списке аддонов.
 5. Нажмите Включить. Готово!
 
 ## Как скачать (через PulseSync)
 1. Откройте PulseSync → Магазин расширений.
-2. Найдите "Red velvet".
+2. Найдите "RedVelvet".
 3. Нажмите Скачать.
-4. Перейдите в Аддоны и найдите "Red velvet".
+4. Перейдите в Аддоны и найдите "RedVelvet".
 5. Нажмите Включить. Готово!
